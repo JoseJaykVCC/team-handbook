@@ -33,14 +33,14 @@ Next, you need to identify the commit hash(es) from the source branch (`qa`) tha
 
 Navigate to the `qa` branch in your repository and open the **Commits** view.
 
-_Image 1_
+![Image1](Image1.png)
 
 
 ### 3. Copy the commit hash
 
 Find the commit you want to cherry-pick and copy its commit hash.
 
-_Image 2_
+![Image2](Image2.png)
 
 
 ### 4. Switch to the target branch
