@@ -20,11 +20,11 @@ Cherry-pick creates a **new commit** on the target branch with the same changes 
 
 First, identify the branch where the changes you want to apply are located (source branch), and the branch where you want to apply those changes (target branch).
 
-For example, you may have some changes in the `qa` branch that you want to apply to the `release/1.6.1` branch.
+For example, you may have some changes in the `qa` branch that you want to apply to the `Release/FTVS-1.6.1` branch.
 
 In this case:
 - **Source branch:** `qa`
-- **Target branch:** `release/1.6.1`
+- **Target branch:** `Release/FTVS-1.6.1`
 
 Next, you need to identify the commit hash(es) from the source branch (`qa`) that you want to cherry-pick.
 
@@ -50,7 +50,7 @@ Checkout the branch where you want to apply the commit.
 Example:
 
 ```bash
-git checkout release/1.6.1
+git checkout Release/FTVS-1.6.1
 ```
 
 ### 5. Perform the cherry-pick
