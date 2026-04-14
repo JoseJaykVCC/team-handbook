@@ -28,7 +28,6 @@ In this case:
 
 Next, you need to identify the commit hash(es) from the source branch (`qa`) that you want to cherry-pick.
 
----
 
 ### 2. Go to the source branch (`qa`) and click on **Commits**
 
@@ -36,7 +35,6 @@ Navigate to the `qa` branch in your repository and open the **Commits** view.
 
 _Image 1_
 
----
 
 ### 3. Copy the commit hash
 
@@ -44,7 +42,6 @@ Find the commit you want to cherry-pick and copy its commit hash.
 
 _Image 2_
 
----
 
 ### 4. Switch to the target branch
 
@@ -69,4 +66,4 @@ Once the cherry-pick is completed successfully, push the changes to the remote r
 
 ```bash
 git push
-``
+```
